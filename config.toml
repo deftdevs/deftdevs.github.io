@@ -9,7 +9,7 @@ paginate = 20
 style = "github-dark"
 
 [params]
-  author = "DEFT DEVS LLC"
+  author = "DEFT DEVS"
   info = "We live DevSecOps"
   description = "Company website"
   keywords = "company,software,it,services,consulting,development,blog"
