@@ -10,9 +10,9 @@ style = "github-dark"
 
 [params]
   author = "DEFT DEVS"
-  # info = "We live DevSecOps"
+  info = "DevOps Excellence. Sustainably Delivered."
   description = "Company website"
-  keywords = "company,software,it,services,consulting,development,blog"
+  keywords = "company,devops,software,it,services,consulting,development,blog"
   avatarurl = "images/logo-mixed.png"
   since = 2022
 
@@ -21,6 +21,8 @@ style = "github-dark"
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
+
+  customCSS = ["custom.css"]
 
 [taxonomies]
   category = "categories"
