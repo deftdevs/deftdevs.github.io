@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-DEFT DEVS LLC is a IT services and consulting company with focus on DevSecOps.
+Deft Devs is a IT services and consulting company with focus on DevSecOps.

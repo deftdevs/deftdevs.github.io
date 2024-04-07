@@ -1,5 +1,5 @@
 baseURL = 'https://deftdevs.com'
-title = 'DEFT DEVS'
+title = 'Deft Devs'
 languageCode = 'en-us'
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
@@ -9,7 +9,7 @@ paginate = 20
 style = "github-dark"
 
 [params]
-  author = "DEFT DEVS"
+  author = "Deft Devs"
   info = "DevOps Excellence. Sustainably Delivered."
   description = "Company website"
   keywords = "company,devops,software,it,services,consulting,development,blog"
@@ -32,21 +32,21 @@ style = "github-dark"
 
 # Social links
 
-# [[params.social]]
-#   name = "Github"
-#   icon = "fa fa-github fa-2x"
-#   weight = 1
-#   url = "https://github.com/deftdevs"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/deftdevs"
 # [[params.social]]
 #   name = "Gitlab"
 #   icon = "fa fa-gitlab fa-2x"
 #   weight = 2
 #   url = "https://gitlab.com/deftdevs"
-# [[params.social]]
-#   name = "LinkedIn"
-#   icon = "fa fa-linkedin fa-2x"
-#   weight = 3
-#   url = "https://www.linkedin.com/company/deftdevs"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/company/deftdevs"
 # [[params.social]]
 #   name = "Twitter"
 #   icon = "fa fa-twitter fa-2x"
