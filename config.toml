@@ -3,7 +3,9 @@ title = 'Deft Devs'
 languageCode = 'en-us'
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
-paginate = 20
+
+[pagination]
+  pagerSize = 20
 
 [markup.highlight]
 style = "github-dark"
