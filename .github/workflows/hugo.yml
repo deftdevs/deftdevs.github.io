@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      HUGO_VERSION: 0.111.2
+      HUGO_VERSION: 0.147.3
 
     steps:
 
