@@ -1,7 +1,6 @@
 baseURL = 'https://deftdevs.com'
 title = 'Deft Devs'
-languageCode = 'en-us'
-theme = "hugo-coder"
+locale = 'en-US'
 defaultcontentlanguage = "en"
 
 # No blog (yet): don't generate empty tag/category/series/author pages or RSS feeds
@@ -18,22 +17,17 @@ style = "github-dark"
   info = "DevOps Excellence. Sustainably Delivered."
   description = "Deft Devs is an independent DevOps and software engineering consultancy: platform engineering, CI/CD, cloud infrastructure and Kubernetes, and custom software development."
   keywords = "devops,platform engineering,consulting,cloud,kubernetes,ci/cd,infrastructure as code,software development"
-  avatarurl = "images/logo-mixed.png"
+  logo = "images/logo-mixed.png"
   since = 2022
 
   favicon_16 = "images/favicon-16.png"
   favicon_32 = "images/favicon-32.png"
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-
-  customCSS = ["custom.css"]
-
 # Social links
 
 [[params.social]]
   name = "Github"
-  icon = "fa fa-github fa-2x"
+  icon = "github"
   weight = 1
   url = "https://github.com/deftdevs"
 # [[params.social]]
@@ -43,7 +37,7 @@ style = "github-dark"
 #   url = "https://gitlab.com/deftdevs"
 [[params.social]]
   name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
+  icon = "linkedin"
   weight = 3
   url = "https://www.linkedin.com/company/deftdevs"
 # [[params.social]]
