@@ -2,6 +2,38 @@
     font-size: 2rem;
 }
 
+/* Site name in the header as written ("Deft Devs"), not uppercased by the theme */
+.navigation .navigation-title {
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+/* Links in page text and footer: text color with a subtle underline instead of the theme's blue.
+   "body" prefix matches the specificity of the theme's dark-mode rules so this wins in both modes. */
+body .content article a:not(.title-link),
+body .footer .container a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(128, 128, 128, 0.5);
+    text-underline-offset: 0.2em;
+}
+
+body .content article a:not(.title-link):hover,
+body .content article a:not(.title-link):focus,
+body .footer .container a:hover,
+body .footer .container a:focus {
+    text-decoration-color: currentColor;
+}
+
+/* Founder photo on the About page */
+.content article img[src$="patrick-hobusch.jpg"] {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* Left-aligned text reads better than the theme's justified paragraphs (no word gaps) */
 .content article p {
     text-align: left;

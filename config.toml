@@ -16,8 +16,8 @@ style = "github-dark"
 [params]
   author = "Deft Devs"
   info = "DevOps Excellence. Sustainably Delivered."
-  description = "Deft Devs is a DevSecOps consultancy: cloud architecture on Azure with Terraform, Kubernetes platforms, CI/CD automation and hands-on software engineering."
-  keywords = "devops,devsecops,consulting,cloud,azure,terraform,kubernetes,ci/cd,software development"
+  description = "Deft Devs is an independent DevOps and software engineering consultancy: platform engineering, CI/CD, cloud infrastructure and Kubernetes, and custom software development."
+  keywords = "devops,platform engineering,consulting,cloud,kubernetes,ci/cd,infrastructure as code,software development"
   avatarurl = "images/logo-mixed.png"
   since = 2022
 
@@ -63,6 +63,14 @@ style = "github-dark"
 #   weight = 2
 #   url  = "posts/"
 [[menu.main]]
-  name = "Contact"
+  name = "About"
+  weight = 2
+  url  = "about/"
+[[menu.main]]
+  name = "Work"
   weight = 3
+  url  = "work/"
+[[menu.main]]
+  name = "Contact"
+  weight = 4
   url  = "contact/"

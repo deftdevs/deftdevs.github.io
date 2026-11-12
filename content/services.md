@@ -1,42 +1,50 @@
 ---
 title: "Services"
-description: "DevSecOps services from Deft Devs: DevOps consulting, Azure cloud architecture with Terraform, Kubernetes, CI/CD automation, software development, testing and training."
+description: "DevOps and platform engineering, CI/CD, cloud and Kubernetes infrastructure, embedded DevOps, and custom software development from Deft Devs."
 ---
 
-We offer the following services.
+Deft Devs helps engineering teams ship software faster and more reliably, from the build pipeline to the cloud platform it runs on. Engagements range from a short assessment to long-term hands-on work inside your team.
 
-## DevOps Consulting
+## DevOps and Platform Engineering
 
-Providing expert guidance on the implementation of DevOps principles and practices, helping businesses to streamline their software development process and enhance collaboration between development and operations teams.
+Assess how your software gets from commit to production, find the bottlenecks, and build the internal platform that removes them. Includes architecture reviews, roadmaps, and workshops that leave your team able to run what was built.
 
-## Cloud Architecture and Migration
+## CI/CD and Release Engineering
 
-Designing and implementing robust and scalable cloud infrastructures with high availability and disaster recovery using Terraform and Terragrunt on platforms such as Microsoft Azure, as well as migrating existing on-premise services to the cloud.
+Fast, repeatable pipelines with quality gates, automated versioning and releases, and preview environments per pull request. Shared pipeline libraries that let many teams deploy the same way without copy-pasting YAML.
 
-## Containerization
+*Jenkins, GitHub Actions, GitLab CI, Maven, Gradle, SonarQube*
 
-Designing, implementing and deploying containerized applications, setting up container orchestration systems, and managing containerized environments using Kubernetes, Helm, and Helmfile, enhancing the scalability and reliability of services.
+## Cloud Infrastructure and Kubernetes
 
-## Automation and CI/CD Pipelines
+Cloud infrastructure defined as code, reviewed like code, and deployed by pipelines, not by hand. Kubernetes clusters and Helm-based delivery with secrets management, backups and single sign-on built in.
 
-Streamlining software development and deployment processes through the implementation and optimization of automation and continuous integration / continuous delivery (CI/CD) pipelines to ensure fast, reliable, and repeatable processes for building, testing, and deploying software, reducing time to market and enhancing product quality.
+*Azure, Hetzner, DigitalOcean, Cloudflare, Terraform, OpenTofu, Terragrunt, Kubernetes, Helm, NixOS*
 
-## Software Development
+## Developer Platform and Supply Chain
 
-Designing and developing sustainable software solutions using languages such as Java, Go or Python, with a strong focus on clean code principles and practices.
+Keep dependencies current and builds reproducible across the whole organization. Automated dependency updates, artifact management, migrations between Git platforms, and secrets and identity management.
 
-## Automated Testing
+*Renovate, Artifactory, GitHub Enterprise, GitLab, Vault, Entra ID*
 
-Comprehensive testing including unit, integration, system, and end-to-end (E2E) testing, ensuring the delivery of valuable functionality and high-quality software.
+## Embedded and Automotive DevOps
 
-## Training and Workshops
+CI/CD for C and C++ firmware: reproducible builds, package management, static analysis and reporting integrated into pipelines that fit automotive development processes.
 
-Offering training programs and workshops on various topics related to DevOps and software development, with a focus on best practices and standards.
+*CMake, Conan, Jenkins, Artifactory, MATLAB, Polyspace, Tessy, TPT*
 
-## Open Source
+## Custom Software Development
 
-Contribution to open source projects, providing improvements and enhancements to the wider software community, while avoiding long-term maintenance efforts.
+Internal tools, integrations and automation, as well as full-stack web applications with AI features. Also: turning AI-generated prototypes into tested, maintainable products ready for production.
 
-## Project Management
+*Java, Python, TypeScript, React, Supabase, Anthropic and OpenAI APIs*
 
-Supporting agile projects with focus on requirements management, ensuring efficient and effective delivery of software projects.
+## Atlassian Tooling
+
+Configuration as code, automation and migrations for Jira, Confluence and Crowd, on Data Center and Cloud.
+
+## How We Work
+
+- Contracts and invoices through Deft Devs LLC, in EUR, USD and other major currencies
+- Remote collaboration with your team, in your tools and processes
+- NDAs signed before any confidential details are shared
