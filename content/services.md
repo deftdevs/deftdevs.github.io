@@ -11,7 +11,7 @@ Assess how your software gets from commit to production, find the bottlenecks, a
 
 ## CI/CD and Release Engineering
 
-Fast, repeatable pipelines with quality gates, automated versioning and releases, and preview environments per pull request. Shared pipeline libraries that let many teams deploy the same way without copy-pasting YAML.
+Fast, repeatable pipelines with quality gates, automated versioning and releases, and preview environments per pull request. Shared pipeline libraries that let many teams deploy the same way without duplicating pipeline code.
 
 *Jenkins, GitHub Actions, GitLab CI, Maven, Gradle, SonarQube*
 
@@ -45,6 +45,6 @@ Configuration as code, automation and migrations for Jira, Confluence and Crowd,
 
 ## How We Work
 
-- Contracts and invoices through Deft Devs LLC, in EUR, USD and other major currencies
+- Contracts and invoices through Deft Devs LLC, in USD, EUR and other major currencies
 - Remote collaboration with your team, in your tools and processes
 - NDAs signed before any confidential details are shared

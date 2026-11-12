@@ -16,8 +16,8 @@ Development and operation of the CI/CD platform behind the company's internal so
 - Single sign-on across all services, automated end-to-end tests, and production-like anonymized test data for non-production environments
 - Shared Jenkins pipeline library with about 40 reusable steps for Helm releases, Azure Key Vault integration, database lifecycle and release approvals
 - Organization-wide automated dependency updates with self-hosted Renovate across GitHub Enterprise and GitLab
-- Migration of repositories from GitHub.com to GitHub Enterprise Cloud
-- Tooling for a Confluence migration to the cloud: merging migrated content with dry-run, undo and audit logging
+- Migration of source code hosting from TeamForge to GitLab, and later from GitLab to GitHub Enterprise Cloud
+- Tooling for the migration of Atlassian applications to the cloud: merging migrated content with dry-run, undo and audit logging
 
 ## From AI Prototype to Production App
 

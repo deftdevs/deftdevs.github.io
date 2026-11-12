@@ -1,0 +1,17 @@
+{{- /* Person block: photo with name, role and profile links beside it.
+       {{< profile image="/images/x.jpg" name="…" role="…" github="https://…" linkedin="https://…" >}} */ -}}
+{{- $name := .Get "name" -}}
+<div class="profile">
+  <img src="{{ .Get "image" | relURL }}" alt="{{ $name }}" width="112" height="112">
+  <div>
+    <h2 id="{{ $name | anchorize }}">{{ $name }}</h2>
+    {{ with .Get "role" }}<p class="profile-role">{{ . }}</p>{{ end }}
+    <p class="profile-links">
+      {{- range $label, $key := dict "GitHub" "github" "LinkedIn" "linkedin" }}
+      {{- with $.Get $key }}
+      <a class="icon-link" href="{{ . }}" aria-label="{{ $name }} on {{ $label }}" title="{{ $label }}" rel="noopener">{{ partial "icon.html" $key }}</a>
+      {{- end }}
+      {{- end }}
+    </p>
+  </div>
+</div>

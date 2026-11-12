@@ -182,6 +182,9 @@ a { color: inherit; }
 .prose li::before { content: ""; position: absolute; left: 0.15rem; top: 0.68em; width: 0.45rem; height: 0.45rem; background: var(--gold); border-radius: 1px; }
 .prose a { color: inherit; text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 0.22em; }
 .prose a:hover { color: var(--gold-text); }
+.prose a.icon-link { display: inline-flex; margin-right: 0.6rem; color: var(--muted); text-decoration: none; }
+.prose a.icon-link:hover { color: var(--text); }
+.prose a.icon-link svg { width: 1.5rem; height: 1.5rem; }
 .prose strong { font-weight: 700; }
 
 /* A paragraph that is only emphasis: technology lists and project meta lines */
@@ -190,8 +193,12 @@ a { color: inherit; }
 .prose blockquote { margin: 2rem 0; padding: 1.25rem 1.5rem; background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold); border-radius: 0 var(--radius) var(--radius) 0; color: var(--muted); }
 .prose blockquote p:last-child { margin-bottom: 0; }
 
-/* Founder photo on the About page */
-.prose img[src$="patrick-hobusch.jpg"] { display: block; width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid var(--gold); }
+/* Person block on the About page: photo with name, role and links beside it */
+.profile { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem 1.5rem; margin: 3rem 0 2rem; padding-top: 2.5rem; border-top: 1px solid var(--border); }
+.profile img { display: block; width: 112px; height: 112px; border-radius: 50%; object-fit: cover; border: 3px solid var(--gold); }
+.prose .profile h2 { margin: 0; padding: 0; border: 0; }
+.profile-role { margin: 0.35rem 0 0.9rem; font-family: var(--mono); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-text); }
+.profile-links { margin: 0; line-height: 0; }
 
 /* Footer */
 

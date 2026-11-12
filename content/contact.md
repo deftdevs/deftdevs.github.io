@@ -15,5 +15,4 @@ United States
 
 Managing Member: Patrick Hobusch
 
-Email: [contact@deftdevs.com](mailto:contact@deftdevs.com)\
-LinkedIn: [Deft Devs](https://www.linkedin.com/company/deftdevs)
+Email: [contact@deftdevs.com](mailto:contact@deftdevs.com)
