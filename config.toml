@@ -4,6 +4,9 @@ languageCode = 'en-us'
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
 
+# No blog (yet): don't generate empty tag/category/series/author pages or RSS feeds
+disableKinds = ["taxonomy", "term", "rss"]
+
 [pagination]
   pagerSize = 20
 
@@ -13,8 +16,8 @@ style = "github-dark"
 [params]
   author = "Deft Devs"
   info = "DevOps Excellence. Sustainably Delivered."
-  description = "Company website"
-  keywords = "company,devops,software,it,services,consulting,development,blog"
+  description = "Deft Devs is a DevSecOps consultancy: cloud architecture on Azure with Terraform, Kubernetes platforms, CI/CD automation and hands-on software engineering."
+  keywords = "devops,devsecops,consulting,cloud,azure,terraform,kubernetes,ci/cd,software development"
   avatarurl = "images/logo-mixed.png"
   since = 2022
 
@@ -25,12 +28,6 @@ style = "github-dark"
   hidecolorschemetoggle = false
 
   customCSS = ["custom.css"]
-
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
 
 # Social links
 

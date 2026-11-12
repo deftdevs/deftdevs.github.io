@@ -1,3 +1,10 @@
 .centered .about h2 {
     font-size: 2rem;
 }
+
+/* Left-aligned text reads better than the theme's justified paragraphs (no word gaps) */
+.content article p {
+    text-align: left;
+    hyphens: manual;
+    -webkit-hyphens: manual;
+}

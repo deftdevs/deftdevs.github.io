@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Get in touch with Deft Devs LLC."
 ---
 
 DEFT DEVS LLC\

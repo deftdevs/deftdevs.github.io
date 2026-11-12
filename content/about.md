@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Deft Devs is an IT services and consulting company focused on DevSecOps."
 ---
 
-Deft Devs is a IT services and consulting company with focus on DevSecOps.
+Deft Devs is an IT services and consulting company focused on DevSecOps.

@@ -1,5 +1,6 @@
 ---
 title: "Services"
+description: "DevSecOps services from Deft Devs: DevOps consulting, Azure cloud architecture with Terraform, Kubernetes, CI/CD automation, software development, testing and training."
 ---
 
 We offer the following services.
