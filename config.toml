@@ -15,8 +15,8 @@ style = "github-dark"
 [params]
   author = "Deft Devs"
   info = "DevOps Excellence. Sustainably Delivered."
-  description = "Deft Devs is an independent DevOps and software engineering consultancy: platform engineering, CI/CD, cloud infrastructure and Kubernetes, and custom software development."
-  keywords = "devops,platform engineering,consulting,cloud,kubernetes,ci/cd,infrastructure as code,software development"
+  description = "Deft Devs is an independent DevOps, platform and AI engineering consultancy: audit-ready release pipelines, dependency and supply-chain automation, exit-ready cloud platforms, and AI features taken to production."
+  keywords = "devops,platform engineering,ai engineering,llm integration,ci/cd,release management,software supply chain,renovate,kubernetes,infrastructure as code,cloud exit strategy,eu dora,cyber resilience act,nis2,consulting"
   logo = "images/logo-mixed.png"
   since = 2022
 

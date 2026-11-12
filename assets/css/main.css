@@ -142,11 +142,12 @@ a { color: inherit; }
 .section h2 { font-size: clamp(1.7rem, 3.5vw, 2.25rem); font-weight: 750; margin-bottom: 2.5rem; }
 
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); gap: 1rem; }
-.card { display: flex; flex-direction: column; padding: 1.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; transition: border-color 0.15s ease, transform 0.15s ease; }
+/* Each card spans three rows of the parent grid (title, text, link), so these line up across a row of cards */
+.card { display: grid; grid-row: span 3; grid-template-rows: subgrid; row-gap: 0; align-content: start; padding: 1.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; transition: border-color 0.15s ease, transform 0.15s ease; }
 .card:hover { border-color: var(--gold); transform: translateY(-2px); }
 .card h3 { font-size: 1.1rem; margin-bottom: 0.6rem; }
 .card p { color: var(--muted); font-size: 0.975rem; margin-bottom: 1.25rem; }
-.card-link { margin-top: auto; display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--mono); font-size: 0.8rem; color: var(--gold-text); }
+.card-link { align-self: end; justify-self: start; display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--mono); font-size: 0.8rem; color: var(--gold-text); }
 
 .band { background: var(--band-bg); color: var(--band-text); border-block: 1px solid var(--band-border); }
 .band .eyebrow { color: var(--band-gold); }
@@ -156,7 +157,11 @@ a { color: inherit; }
 .result-value .arrow { position: relative; top: -0.12em; }
 .result-label { color: var(--band-muted); font-size: 0.975rem; margin: 0; }
 
-.principles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 2rem; }
+.principles { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+@media (min-width: 560px) { .principles { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 960px) { .principles { grid-template-columns: repeat(4, 1fr); } }
+/* Same three-row alignment as the service cards: number, title, text */
+.principle { display: grid; grid-row: span 3; grid-template-rows: subgrid; row-gap: 0; align-content: start; }
 .principle-number { font-family: var(--mono); font-size: 0.85rem; color: var(--gold-text); }
 .principle h3 { font-size: 1.1rem; margin: 0.5rem 0 0.6rem; }
 .principle p { color: var(--muted); font-size: 0.975rem; margin: 0; }
